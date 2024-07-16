@@ -1,0 +1,28 @@
+
+  
+ @media screen and (max-width: 10px) {
+    #galeria img {
+      max-height: 10px; 
+    }
+  }
+  
+ 
+ #galeria img {
+    width: 250px; 
+    height: 500px ; 
+  }
+  #galeria li {
+    display: inline-block; 
+    margin: 0,8px; 
+    text-align: center; 
+  }
+  #galeria img {
+    border: 5px solid #490303; 
+  }
+  
+  #galeria img:hover {
+    
+    transform: scale(1.05); 
+    box-shadow: 0,2px 5px rgba(0, 0, 0, 0.3); 
+  }
+  
